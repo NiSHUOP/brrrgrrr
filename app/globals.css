@@ -1,0 +1,226 @@
+.banner{
+  height: 100vh;
+  background-image: url(../public/image/Banner.png);
+      background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+/* css for buttons */
+#containt>.ing{
+  left: 9vw;
+  bottom: 2vh;
+  position: fixed;
+}
+
+
+
+/* #f8a41d
+#F75A1B */
+
+.ings{
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+  width: 500px;
+  height: 110px;
+}
+.btns-grp{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.btn{
+  padding: 5px 12px;
+}
+
+/* css for paid */
+#containt>.paid{
+  right: 9vw;
+  bottom: 2vh;
+  position: fixed;
+}
+.paid{
+  width:280px;
+  height: 130px;
+  background-color: rgb(1, 1, 1);
+  text-align: left;
+  color: white;
+  padding: 0 10px;
+  border: 4px solid white;
+}
+.pay_btn{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* css for List  */
+#containt>.list_cntnr{
+  bottom: 2vh;
+  position: fixed;
+}
+.list_cntnr{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.list{
+  width: 150px;
+  height: 200px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+}
+.list ul{
+  padding: 0 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+.list ul {
+  list-style: none;
+}
+.list  ul li:before {
+  content: '✓ ';
+  color: green;
+  font-weight: bold;
+}
+  
+ 
+
+
+
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) 
+  and (max-device-width: 1023px) {
+  .banner {
+      background-image: url(../public/image/BannerT.png);
+      background-repeat: no-repeat;
+  background-size: 100% 100%;
+  }
+/* css for List  */
+#containt>.list_cntnr{
+  bottom: 2vh;
+  left: 35vw;
+  position: fixed;
+}
+/* css for paid */
+#containt>.paid{
+  left: 8vw;
+  bottom: 2vh;
+  position: fixed;
+}
+/* css for buttons */
+#containt>.ing{
+  left: 8vw;
+  bottom: 15vh;
+  position: fixed;
+}
+}
+
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+  and (max-device-width: 640px) {
+  .banner {
+    background-image: url(../public/image/BannerP.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+
+/* css for buttons */
+#containt>.ing{
+  left: 4vw;
+  bottom: 15px;
+  position: fixed;
+}
+
+.ings{
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+  width: 110px;
+  height: 200px;
+}
+p{
+  font-size: 10px;
+}
+.btns-grp{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.ings .btn{
+  padding: 2px 5px;
+  margin-bottom: 5px;
+  width: 90px;
+  font-size: 12px;
+}
+
+/* css for paid */
+#containt>.paid{
+  right: 4vw;
+  bottom: 15px;
+  position: fixed;
+}
+span{
+  font-size: 10px;
+}
+h5{
+  font-size: 15px;
+}
+.paid .btn{
+  font-size: 8px;
+}
+.paid{
+  width:180px;
+  height: 115px;
+  background-color: rgb(1, 1, 1);
+  text-align: left;
+  color: white;
+  padding: 0 10px;
+  border: 4px solid white;
+}
+.pay_btn{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* css for List  */
+
+#containt>.list_cntnr{
+  bottom: 140px;
+  right: 2vw;
+  position: fixed;
+}
+
+.list_cntnr{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.list p{
+  font-size: 10px;
+}
+.list{
+  width: 100px;
+  height: 140px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  font-size: 10px;
+}
+.list ul{
+  padding: 0 10px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+
+
+}
+
+
